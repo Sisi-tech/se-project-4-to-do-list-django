@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('{% static "img/note.jpg" %}');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.content {
+    padding-top: 60px;
+    font-size: 20px;
+}
+.content input {
+    padding: 4px;
+    font-size: 20px;
+    width: 300px;
+}
+.add-btn {
+    padding: 4px 20px 4px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: white;
+    box-shadow: 2px 2px 4px rgb(162, 148, 150);
+}
+.add-btn:hover {
+    background-color: pink;
+    border: none;
+}
+.content form {
+    display: flex;
+    gap: 20px;
+}

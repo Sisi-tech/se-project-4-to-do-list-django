@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import List 
+from .models import ToDoItem
 
 class ItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = List 
+        model = ToDoItem
         fields = '__all__'
         

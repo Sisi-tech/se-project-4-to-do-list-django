@@ -1,8 +1,8 @@
 from django import forms 
-from .models import List
+from .models import ToDoItem
 
 class ListForm(forms.ModelForm):
     class Meta:
-        model = List 
+        model = ToDoItem 
         fields = ["item"]
         
